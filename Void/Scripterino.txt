@@ -1,0 +1,88 @@
+[Chapter 0]: 
+...
+The universe is silent.
+...
+What’s that?
+A faint murmur masquerades amongst the silence.
+It’s you.
+...
+But wait--who *are* you...?
+You have no memories.
+You just...exist.
+You just...are.
+You have no beginning nor ending.
+No past nor future.
+Just the present.
+Just now.
+...
+You: Wh...what do we do now?
+I’m afraid that’s not my decision.
+It’s up to you.
+[Chapter 1]: 
+...
+Well?
+> Why do I exist?
+	...
+	Just think for a moment.
+	...
+	What could you possibly be here for?
+	You're here now... So there must be something, right?
+	Or is there a reason for your existence at all?
+	> Of course.
+		Then what is it?
+		> I have to live a successful life.
+			There *is* no life here.
+			It’s just you.
+			And you just... are.
+			But...
+			Who are you?
+			> :: (Name)
+				Well, (Name)...
+				[Chapter 2]
+				You can do anything here.
+				So what will you do now?
+				
+		> I must ensure the happiness of others.
+			There’s nobody here.
+			Just you.
+			...
+			What do you think that makes me?
+			> A piece of my imagination.
+				???
+			> The embodiment of the Universe.
+				???
+			> I don't know.
+				Well... 
+				I am everything, and nothing.
+
+	> Nope.
+		Your existence is meaningless.
+		...
+		But that doesn't mean you can't make your own meaning.
+				
+> Where am I?
+	You are nowhere.
+	There is nothing in any direction...
+	Except for you...
+	> 
+		...
+		Does anything exist?
+		> Don't you exist?
+			
+			> Yes 
+				Of course you exist.
+				You always have existed.
+				You always will exist.
+				[Chapter 1];
+				
+			> ...
+				You don't exist.
+				You never have.	
+				[Chapter 0];
+		
+> *Rest*
+	You doze off for eternity.
+	And yet, you awake.
+	...
+	A familiar silence permeates the universe.
+	[Chapter 0];
