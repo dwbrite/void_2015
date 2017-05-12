@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="Story updates">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handlers/TextHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Story/Dialogue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GameState/Story.class" afterPath="$PROJECT_DIR$/bin/GameState/Story.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Handlers/TextDisplay.class" afterPath="$PROJECT_DIR$/bin/Handlers/TextDisplay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/LogicThread.class" afterPath="$PROJECT_DIR$/bin/Main/LogicThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Monologue.class" afterPath="$PROJECT_DIR$/bin/Story/Monologue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Story.class" afterPath="$PROJECT_DIR$/bin/Story/Story.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Text.class" afterPath="$PROJECT_DIR$/bin/Story/Text.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/void.iml" afterPath="$PROJECT_DIR$/.idea/void.iml" />
+    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/LogicThread.java" afterPath="$PROJECT_DIR$/src/Main/LogicThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Actor.java" afterPath="$PROJECT_DIR$/src/Story/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Story.java" afterPath="$PROJECT_DIR$/src/Story/Story.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Text.java" afterPath="$PROJECT_DIR$/src/Story/Text.java" />
     </list>
     <ignored path="void.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -612,7 +599,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494544810975</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Story updates">
+      <created>1494551417939</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1494551417939</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
