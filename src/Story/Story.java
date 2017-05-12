@@ -1,7 +1,5 @@
 package Story;
 
-import Handlers.TextHandler;
-
 public class Story {
 
   Event[] events;

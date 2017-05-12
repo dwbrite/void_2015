@@ -1,5 +1,8 @@
-package Handlers;
+package Handlers.Text;
 
+import Handlers.Audio;
+import Handlers.Controls;
+import Handlers.Options;
 import javafx.scene.paint.Color;
 import Entities.Actor;
 import GameState.StoryState;

@@ -1,6 +1,7 @@
 package Handlers;
 
-import javafx.stage.Screen;
+import Handlers.Text.Text;
+import Handlers.Text.TextDisplay;
 import Main.VoidMain;
 
 public class Options {

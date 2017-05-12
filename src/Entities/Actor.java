@@ -2,7 +2,7 @@ package Entities;
 
 import javafx.scene.paint.Color;
 import GameState.StoryState;
-import Handlers.TextDisplay;
+import Handlers.Text.TextDisplay;
 
 public class Actor {
 	private int answer = 0;

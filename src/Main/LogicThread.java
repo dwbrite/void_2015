@@ -7,9 +7,7 @@ import Handlers.Audio;
 import Handlers.Backgrounds;
 import Handlers.Options;
 //import Handlers.Options;
-import Handlers.Text;
-
-import Story.Story;
+import Handlers.Text.Text;
 
 public class LogicThread implements Runnable {
 	@Override

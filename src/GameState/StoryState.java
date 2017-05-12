@@ -2,12 +2,12 @@ package GameState;
 
 //import javafx.application.Platform;
 
-import Handlers.TextHandler;
+import Handlers.Text.TextHandler;
 import javafx.scene.paint.Color;
 import Entities.Actor;
 import Handlers.Backgrounds;
 import Handlers.Options;
-import Handlers.TextDisplay;
+import Handlers.Text.TextDisplay;
 import Main.VoidMain;
 import Story.Story;
 

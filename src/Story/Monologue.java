@@ -1,6 +1,6 @@
 package Story;
 
-import Handlers.TextHandler;
+import Handlers.Text.TextHandler;
 
 public class Monologue implements Event {
   String text;
@@ -11,11 +11,12 @@ public class Monologue implements Event {
 
   @Override
   public void run() {
-    TextHandler.addText(this.text);
+	  TextHandler.addText("\n" + this.text);
+
     try {
-      Thread.sleep(20);
-    } catch (InterruptedException e) {
-      e.printStackTrace();
+		Thread.sleep(1000);
+	} catch (InterruptedException e) {
+		e.printStackTrace();
     }
   }
 }

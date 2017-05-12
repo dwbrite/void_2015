@@ -1,6 +1,6 @@
 package Story;
 
-import Handlers.TextHandler;
+import Handlers.Text.TextHandler;
 
 public class Dialogue implements Event {
 
