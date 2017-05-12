@@ -1,11 +1,8 @@
 package Handlers;
 
-import java.awt.*;
+import javafx.scene.paint.Color;
 
-/**
- * Created by juliencherry on 05/11/17.
- */
 public class TextHandler {
-  public static void display(Color color) {
+  public static void display(Color color, String string) {
   }
 }
