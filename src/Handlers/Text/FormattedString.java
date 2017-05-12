@@ -1,5 +1,6 @@
 package Handlers.Text;
 
+import java.util.Arrays;
 import javafx.scene.paint.Color;
 
 /**
@@ -8,26 +9,22 @@ import javafx.scene.paint.Color;
  */
 public final class FormattedString {
 
-	private final CharSequence text;
-	private final Color color;
-	private final boolean italics;
-	private final boolean bold;
-	private final boolean underline;
-	// private final TextAnimation inAnimation;
-	// private final TextAnimation outAnimation;
+	final String text;
+
+	final Builder builder;
+	final Color color;
+	final boolean italics;
+	final boolean bold;
+	final boolean underline;
+	// final TextAnimation inAnimation;
+	// final TextAnimation outAnimation;
 
 	public static class Builder {
-
-		private final CharSequence text;
 
 		private Color color = Color.WHITE;
 		private boolean italics = false;
 		private boolean bold = false;
 		private boolean underline = false;
-
-		public Builder(CharSequence text) {
-			this.text = text;
-		}
 
 		public Builder color(Color val) {
 			this.color = val;
@@ -48,17 +45,22 @@ public final class FormattedString {
 			this.underline = true;
 			return this;
 		}
-
-		public FormattedString build() {
-			return new FormattedString(this);
-		}
 	}
 
-	private FormattedString(Builder builder) {
+	public FormattedString(String text) {
+		this(text, new Builder());
+	}
+
+	private FormattedString(String text, Builder builder) {
+		this.text = text;
+		this.builder = builder;
 		this.bold = builder.bold;
 		this.color = builder.color;
 		this.italics = builder.italics;
-		this.text = builder.text;
 		this.underline = builder.underline;
+	}
+
+	public FormattedString[] split(String regex) {
+		return Arrays.stream(this.text.split(regex)).map(s -> new FormattedString(s, this.builder)).toArray(FormattedString[]::new);
 	}
 }
