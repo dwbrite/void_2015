@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Handlers/Text/FormattedString.java" afterPath="$PROJECT_DIR$/src/Handlers/Text/FormattedString.java" />
     </list>
     <ignored path="void.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,14 +83,14 @@
       <file leaf-file-name="FormattedString.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Handlers/Text/FormattedString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="160">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
               <folding>
                 <element signature="class#Builder#0;class#FormattedString#0" expanded="false" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#1071#1072#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#740#741#0" expanded="true" />
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1115#1116#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -838,7 +837,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494596710166</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Builder helper class">
+      <created>1494600019185</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1494600019185</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -900,7 +906,8 @@
     <MESSAGE value="Changed Color thing" />
     <MESSAGE value="Added simple text handling" />
     <MESSAGE value="Work on text handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Work on text handling" />
+    <MESSAGE value="Add Builder helper class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Builder helper class" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1367,14 +1374,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Handlers/Text/FormattedString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state relative-caret-position="160">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
           <folding>
             <element signature="class#Builder#0;class#FormattedString#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#1071#1072#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1115#1116#0" expanded="true" />
           </folding>
         </state>
       </provider>
