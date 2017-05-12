@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="Change &quot;display(...)&quot; to &quot;addText(...)&quot;">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/GameState/Story.java" afterPath="$PROJECT_DIR$/src/GameState/StoryState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$1.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$2.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$3.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$4.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Story.class" afterPath="$PROJECT_DIR$/bin/Story/Story.class" />
+    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="Rename GameState.Story to StoryState">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entities/Actor.java" afterPath="$PROJECT_DIR$/src/Entities/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Handlers/TextDisplay.java" afterPath="$PROJECT_DIR$/src/Handlers/TextDisplay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Handlers/TextHandler.java" afterPath="$PROJECT_DIR$/src/Handlers/TextHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/VoidMain.java" afterPath="$PROJECT_DIR$/src/Main/VoidMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Story.java" afterPath="$PROJECT_DIR$/src/Story/Story.java" />
     </list>
     <ignored path="void.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,8 +56,8 @@
               <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1144#1145#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1208#1209#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -789,7 +777,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494555322583</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Rename GameState.Story to StoryState">
+      <created>1494557213152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1494557213152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -842,7 +837,8 @@
     <MESSAGE value="Changed Color thing" />
     <MESSAGE value="Added simple text handling" />
     <MESSAGE value="Change &quot;display(...)&quot; to &quot;addText(...)&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change &quot;display(...)&quot; to &quot;addText(...)&quot;" />
+    <MESSAGE value="Rename GameState.Story to StoryState" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rename GameState.Story to StoryState" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1217,8 +1213,8 @@
           <caret line="67" column="52" selection-start-line="67" selection-start-column="52" selection-end-line="67" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
           </folding>
         </state>
       </provider>
