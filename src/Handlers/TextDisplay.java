@@ -2,7 +2,7 @@ package Handlers;
 
 import javafx.scene.paint.Color;
 import Entities.Actor;
-import GameState.Story;
+import GameState.StoryState;
 import Main.VoidMain;
 
 public class TextDisplay {
@@ -53,8 +53,8 @@ public class TextDisplay {
 		}
 		Controls.setEnter(false);
 		askOptionsShown = false;
-		Story.player.answer(choices[tempChoice]);//blinkWrite(name + choices[tempChoice], Story.player);
-		return tempChoice;
+    StoryState.player.answer(choices[tempChoice]);//blinkWrite(name + choices[tempChoice], Story.player);
+    return tempChoice;
 	}
 
 	public static void blinkWrite(String str, Actor actor) {
@@ -202,8 +202,8 @@ public class TextDisplay {
 		}
 		Controls.setEnter(false);
 		inOptionsMenu = false;
-		Story.menu();
-	}
+    StoryState.menu();
+  }
 
 	public static String prompt() {
 		inputString = "";
@@ -236,7 +236,7 @@ public class TextDisplay {
 			actorArray[i] = actorArray[i - 1];
 		}
 		lineArray[0] = inputString;
-		actorArray[0] = Story.player;
+    actorArray[0] = StoryState.player;
 
 		return inputString;
 	}
@@ -250,8 +250,8 @@ public class TextDisplay {
 				VoidMain.getGraphicsContext().setFont(Text.getDefaultFont());
 				VoidMain.getGraphicsContext().setFill(tempColor);
 				VoidMain.getGraphicsContext().fillText(lineArray[i], 8, (Options.getRealHeight() - (32 + 16 * (choices.length + i)) * Text.getTextScale()));
-				VoidMain.getGraphicsContext().setFill(Story.player.getTextColor());
-			}
+        VoidMain.getGraphicsContext().setFill(StoryState.player.getTextColor());
+      }
 			for (int i = 0; i < choices.length; i++) {
 				VoidMain.getGraphicsContext().fillText(((tempChoice == i && flashyThingy % 60 < 30) ? "� " : "  ") + choices[i], 8, (Options.getRealHeight() - (32 + 16 * (choices.length - 1) - (16 * i)) * Text.getTextScale()));
 			}
@@ -262,13 +262,13 @@ public class TextDisplay {
 				VoidMain.getGraphicsContext().setFill(tempColor);
 				VoidMain.getGraphicsContext().fillText(lineArray[i], 8, (Options.getRealHeight() - 32) - 16 * (i + 1) * Text.getTextScale());
 			}
-			VoidMain.getGraphicsContext().setFill(Story.player.getTextColor());
-			VoidMain.getGraphicsContext().fillText(((flashyThingy % 60 < 30) ? "� " : "  ") + inputString, 8, (Options.getRealHeight() - 32));
+      VoidMain.getGraphicsContext().setFill(StoryState.player.getTextColor());
+      VoidMain.getGraphicsContext().fillText(((flashyThingy % 60 < 30) ? "� " : "  ") + inputString, 8, (Options.getRealHeight() - 32));
 
 		} else if (inOptionsMenu) {
 			for (int i = 0; i < lineArray.length; i++) {
-				VoidMain.getGraphicsContext().setFill(Story.universe.getTextColor());
-				VoidMain.getGraphicsContext().fillText(((tempChoice == i && flashyThingy % 60 < 30) ? "� " : "  ") + lineArray[i], 8, (Options.getRealHeight() - (32 + 16 * (lineArray.length - 1) - (16 * i)) * Text.getTextScale()));
+        VoidMain.getGraphicsContext().setFill(StoryState.universe.getTextColor());
+        VoidMain.getGraphicsContext().fillText(((tempChoice == i && flashyThingy % 60 < 30) ? "� " : "  ") + lineArray[i], 8, (Options.getRealHeight() - (32 + 16 * (lineArray.length - 1) - (16 * i)) * Text.getTextScale()));
 			}
 		} else {
 			Color tempColor;

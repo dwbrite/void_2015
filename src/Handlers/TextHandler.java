@@ -28,4 +28,10 @@ public class TextHandler {
   public static void addText(String str) {
     addText(str, Color.WHITE);
   }
+
+  public static void render() {
+    for (int i = 0; i < text.length; i++) {
+      VoidMain.getGraphicsContext().fillText(getLine(i), 8, (Options.getRealHeight() - 32) - 16 * (i + 1) * Text.getTextScale());
+    }
+  }
 }

@@ -1,5 +1,7 @@
 package Story;
 
+import Handlers.TextHandler;
+
 public class Story {
 
   Event[] events;
@@ -28,7 +30,6 @@ public class Story {
             new Dialogue(you, "Wh...what do we do now?"),
             new Monologue("I'm afraid that’s not my decision."),
             new Monologue("It’s up to you.")
-
     };
 
     this.events = events;

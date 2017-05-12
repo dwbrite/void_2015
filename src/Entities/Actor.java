@@ -1,7 +1,7 @@
 package Entities;
 
 import javafx.scene.paint.Color;
-import GameState.Story;
+import GameState.StoryState;
 import Handlers.TextDisplay;
 
 public class Actor {
@@ -41,8 +41,8 @@ public class Actor {
 	}
 
 	public void say(String str) {
-		if (equals(Story.player)) {
-			TextDisplay.write(name + ": " + str, this);
+    if (equals(StoryState.player)) {
+      TextDisplay.write(name + ": " + str, this);
 		} else {
 			TextDisplay.write(str, this);
 		}
@@ -65,6 +65,6 @@ public class Actor {
 	}
 
 	public void answer(String choice) {
-		TextDisplay.blinkWrite(choice, Story.player);
-	}
+    TextDisplay.blinkWrite(choice, StoryState.player);
+  }
 }

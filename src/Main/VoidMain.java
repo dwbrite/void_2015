@@ -1,5 +1,7 @@
 package Main;
 
+import GameState.StoryState;
+import Story.Story;
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -14,7 +16,7 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-import GameState.Story;
+//import GameState.Story;
 import Handlers.Controls;
 import Handlers.Options;
 import Handlers.Text;
@@ -28,7 +30,7 @@ public class VoidMain extends Application {
 	private static Stage stage;
 
 	private static void draw() {
-    //Story.draw();
+    StoryState.draw();
   }
 
 	public static Canvas getCanvas() {
