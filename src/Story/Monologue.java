@@ -12,5 +12,6 @@ public class Monologue implements Event {
 
   @Override
   public void run() {
+    new Text(text).run();
   }
 }

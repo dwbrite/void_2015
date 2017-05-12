@@ -11,6 +11,12 @@ public class Story {
   Scene scene1;
 
   public Story() {
+    events = {
+            new Monologue("..."),
+            new Monologue(""),
+            new Monologue("")
+
+    };
   }
 
   public void play() {

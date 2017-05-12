@@ -22,10 +22,11 @@ public class LogicThread implements Runnable
 		Options.setMasterVolume(1);
 		Options.setMusicVolume(0.4);
 		Audio.playMusic();
-
+		
+		//Audio.setSFX(0, "/Audio/0.mp3");
 		//Audio.setSFX(1, "/Audio/1.mp3");
 		//Audio.setSFX(2, "/Audio/2.mp3");
-		Audio.setSFX(0, "/Audio/blip5.mp3");
+		Audio.setSFX(0, "/Audio/blip2.mp3");
 		Options.setSFXVolume(0.10);
 		
 		//Story.introSwitch();
