@@ -1,6 +1,8 @@
 package Main;
 
 //import GameState.Story;
+
+import GameState.StoryState;
 import Handlers.Audio;
 import Handlers.Backgrounds;
 import Handlers.Options;
@@ -28,9 +30,11 @@ public class LogicThread implements Runnable {
 		Audio.setSFX(0, "/Audio/blip5.mp3");
 		Options.setSFXVolume(0.10);
 
-    Story story = new Story();
-    story.play();
+    //Story story = new Story();
+    //story.play();
     //Story.introSwitch();
     //Story.menu();
+
+    StoryState.start();
   }
 }

@@ -39,7 +39,6 @@ public class Story {
   public void play() {
     for (int i = 0; i < events.length; i++) {
       events[i].run();
-      System.out.println(events[i].toString());
     }
   }
 }

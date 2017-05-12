@@ -16,7 +16,6 @@ import javafx.scene.input.KeyEvent;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
-//import GameState.Story;
 import Handlers.Controls;
 import Handlers.Options;
 import Handlers.Text;

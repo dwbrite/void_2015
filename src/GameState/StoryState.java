@@ -2,12 +2,15 @@ package GameState;
 
 //import javafx.application.Platform;
 
+import Handlers.TextHandler;
 import javafx.scene.paint.Color;
 import Entities.Actor;
 import Handlers.Backgrounds;
 import Handlers.Options;
 import Handlers.TextDisplay;
 import Main.VoidMain;
+import Story.Story;
+
 
 public class StoryState {
   public static Actor player = new Actor("You", new Color(1, 1, 1, 1));
@@ -18,8 +21,9 @@ public class StoryState {
 		VoidMain.getGraphicsContext().setFill(Color.BLACK);
 		VoidMain.getGraphicsContext().fillRect(0, 0, Options.getRealWidth(), Options.getRealHeight());
 		Backgrounds.drawBackground();
-		TextDisplay.renderText();
-	}
+    //TextDisplay.renderText();
+    TextHandler.render();
+  }
 
 	public static void introSwitch() {
 		universe.say("Void is currently under development.");
@@ -370,4 +374,8 @@ public class StoryState {
 		player = new Actor("You", temp);
 	}
 
+  public static void start() {
+    Story story = new Story();
+    story.play();
+  }
 }
