@@ -11,6 +11,11 @@ public class Monologue implements Event {
 
   @Override
   public void run() {
-    TextHandler.display(this.text);
+    TextHandler.addText(this.text);
+    try {
+      Thread.sleep(20);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
+    }
   }
 }

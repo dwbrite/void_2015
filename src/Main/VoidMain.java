@@ -28,8 +28,8 @@ public class VoidMain extends Application {
 	private static Stage stage;
 
 	private static void draw() {
-		Story.draw();
-	}
+    //Story.draw();
+  }
 
 	public static Canvas getCanvas() {
 		return canvas;
@@ -47,7 +47,6 @@ public class VoidMain extends Application {
 		final LogicThread main = new LogicThread();
 		final Thread thread = new Thread(main);
 		thread.start();
-
 		launch();
 	}
 
