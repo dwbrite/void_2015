@@ -5,8 +5,10 @@ package Story;
  */
 public class Text implements Event {
 
-  public void Text() {
+  String text;
 
+  public Text(String text) {
+    this.text = text;
   }
 
   @Override
