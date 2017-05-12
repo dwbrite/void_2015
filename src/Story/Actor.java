@@ -1,13 +1,20 @@
 package Story;
 
-import java.awt.Color;
+import javafx.scene.paint.Color;
 
-/**
- * Created by juliencherry on 05/11/17.
- */
 public class Actor {
 
-	public Color getColor() {
-		return Color.MAGENTA;
-	}
+  private String name;
+
+  public Actor(String name) {
+    this.name = name;
+  }
+
+  public String getName() {
+    return this.name;
+  }
+
+  public Color getColor() {
+    return Color.MAGENTA;
+  }
 }
