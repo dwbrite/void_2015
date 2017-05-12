@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/GameState/Story.class" afterPath="$PROJECT_DIR$/bin/GameState/Story.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/LogicThread.class" afterPath="$PROJECT_DIR$/bin/Main/LogicThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/LogicThread.java" afterPath="$PROJECT_DIR$/src/Main/LogicThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Monologue.java" afterPath="$PROJECT_DIR$/src/Story/Monologue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Story.java" afterPath="$PROJECT_DIR$/src/Story/Story.java" />
-    </list>
+    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="" />
     <ignored path="void.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -750,7 +744,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="1" width="1922" height="1079" extended-state="6" />
+    <frame x="-1" y="1" width="1922" height="1079" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
