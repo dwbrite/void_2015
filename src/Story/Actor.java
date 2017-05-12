@@ -7,7 +7,7 @@ import java.awt.Color;
  */
 public class Actor {
 
-  public Color getColor() {
-    return Color.MAGENTA;
-  }
+	public Color getColor() {
+		return Color.MAGENTA;
+	}
 }

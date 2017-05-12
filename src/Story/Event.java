@@ -5,5 +5,5 @@ package Story;
  */
 public interface Event {
 
-  void run();
+	void run();
 }

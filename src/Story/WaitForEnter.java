@@ -5,8 +5,8 @@ package Story;
  */
 public class WaitForEnter implements Event {
 
-  @Override
-  public void run() {
-    // todo: call handler
-  }
+	@Override
+	public void run() {
+		// todo: call handler
+	}
 }

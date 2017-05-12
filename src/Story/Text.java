@@ -5,14 +5,14 @@ package Story;
  */
 public class Text implements Event {
 
-  String text;
+	String text;
 
-  public Text(String text) {
-    this.text = text;
-  }
+	public Text(String text) {
+		this.text = text;
+	}
 
-  @Override
-  public void run() {
-    // todo: call handler
-  }
+	@Override
+	public void run() {
+		// todo: call handler
+	}
 }

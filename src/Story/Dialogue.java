@@ -7,16 +7,16 @@ import Handlers.TextHandler;
  */
 public class Dialogue implements Event {
 
-  Actor actor;
-  String dialogue;
+	Actor actor;
+	String dialogue;
 
-  public Dialogue(Actor actor, String dialogue) {
-    this.actor = actor;
-    this.dialogue = dialogue;
-  }
+	public Dialogue(Actor actor, String dialogue) {
+		this.actor = actor;
+		this.dialogue = dialogue;
+	}
 
-  @Override
-  public void run() {
-    TextHandler.display(this.actor.getColor());
-  }
+	@Override
+	public void run() {
+		//	TextHandler.display(this.actor.getColor());
+	}
 }
