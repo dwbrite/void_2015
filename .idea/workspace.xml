@@ -1,37 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="Work on text handling">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handlers/Text/FormattedString.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handlers/Text/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Handlers/Text/TextAnimation.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Handlers/Text.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/Handlers/TextDisplay.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Handlers/Text.java" afterPath="$PROJECT_DIR$/src/Handlers/Text/Text.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Handlers/TextDisplay.java" afterPath="$PROJECT_DIR$/src/Handlers/Text/TextDisplay.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Handlers/TextHandler.java" afterPath="$PROJECT_DIR$/src/Handlers/Text/TextHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Entities/Actor.class" afterPath="$PROJECT_DIR$/bin/Entities/Actor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Handlers/Options.class" afterPath="$PROJECT_DIR$/bin/Handlers/Options.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/LogicThread.class" afterPath="$PROJECT_DIR$/bin/Main/LogicThread.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$1.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$2.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$3.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain$4.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Main/VoidMain.class" afterPath="$PROJECT_DIR$/bin/Main/VoidMain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Monologue.class" afterPath="$PROJECT_DIR$/bin/Story/Monologue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Story/Story.class" afterPath="$PROJECT_DIR$/bin/Story/Story.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Entities/Actor.java" afterPath="$PROJECT_DIR$/src/Entities/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GameState/StoryState.java" afterPath="$PROJECT_DIR$/src/GameState/StoryState.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Handlers/Options.java" afterPath="$PROJECT_DIR$/src/Handlers/Options.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/LogicThread.java" afterPath="$PROJECT_DIR$/src/Main/LogicThread.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main/VoidMain.java" afterPath="$PROJECT_DIR$/src/Main/VoidMain.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Dialogue.java" afterPath="$PROJECT_DIR$/src/Story/Dialogue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Monologue.java" afterPath="$PROJECT_DIR$/src/Story/Monologue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Story.java" afterPath="$PROJECT_DIR$/src/Story/Story.java" />
     </list>
     <ignored path="void.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -846,7 +817,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494553700727</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Work on text handling">
+      <created>1494596592707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1494596592707</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
