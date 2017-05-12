@@ -27,8 +27,8 @@ public class Story {
             new Monologue("..."),
             new Dialogue(you, "Wh...what do we do now?"),
             new Monologue("I'm afraid that’s not my decision."),
-            new Monologue("It’s up to you."),
-            new Decision
+            new Monologue("It’s up to you.")
+
     };
 
     this.events = events;

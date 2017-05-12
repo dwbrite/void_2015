@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c731eced-848f-496a-8129-1d24a4e20a8e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Story/Decision.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/void.iml" afterPath="$PROJECT_DIR$/.idea/void.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Actor.java" afterPath="$PROJECT_DIR$/src/Story/Actor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Dialogue.java" afterPath="$PROJECT_DIR$/src/Story/Dialogue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Monologue.java" afterPath="$PROJECT_DIR$/src/Story/Monologue.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Story/Story.java" afterPath="$PROJECT_DIR$/src/Story/Story.java" />
     </list>
     <ignored path="void.iws" />
@@ -40,17 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Story.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Story.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Story/Story.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+            <state relative-caret-position="87">
+              <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Decision.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Decision.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Story/Decision.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="96">
@@ -156,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/Story/Dialogue.java" />
         <option value="$PROJECT_DIR$/src/Handlers/TextHandler.java" />
         <option value="$PROJECT_DIR$/src/Story/Monologue.java" />
-        <option value="$PROJECT_DIR$/src/Story/Story.java" />
         <option value="$PROJECT_DIR$/src/Story/Decision.java" />
+        <option value="$PROJECT_DIR$/src/Story/Story.java" />
       </list>
     </option>
   </component>
@@ -761,7 +754,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494551433806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="More story updates">
+      <created>1494553771455</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494553771455</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -781,7 +781,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -811,7 +811,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <MESSAGE value="Fixed prject setup" />
     <MESSAGE value="Story updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="Story updates" />
+    <MESSAGE value="More story updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="More story updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1036,18 +1037,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Story/Story.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Story/Decision.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Story/Story.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
           <folding />
         </state>
       </provider>
