@@ -21,8 +21,6 @@ public class StoryState {
 		VoidMain.getGraphicsContext().setFill(Color.BLACK);
 		VoidMain.getGraphicsContext().fillRect(0, 0, Options.getRealWidth(), Options.getRealHeight());
 		Backgrounds.drawBackground();
-    //TextDisplay.renderText();
-    TextHandler.render();
   }
 
 	public static void introSwitch() {

@@ -1,5 +1,6 @@
 package Story;
 
+import Handlers.Text.FormattedString;
 import Handlers.Text.TextHandler;
 
 public class Monologue implements Event {
@@ -11,12 +12,11 @@ public class Monologue implements Event {
 
   @Override
   public void run() {
-	  TextHandler.addText("\n" + this.text);
-
+    TextHandler.addText(new FormattedString("\n" + this.text));
     try {
-		Thread.sleep(1000);
-	} catch (InterruptedException e) {
-		e.printStackTrace();
+      Thread.sleep(1000);
+    } catch (InterruptedException e) {
+      e.printStackTrace();
     }
   }
 }

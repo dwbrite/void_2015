@@ -14,7 +14,7 @@ public class Dialogue implements Event {
 
   @Override
   public void run() {
-    TextHandler.addText(this.actor.getName(), this.actor.getColor());
-    TextHandler.addText(": " + this.dialogue);
+    //TextHandler.addText(this.actor.getName(), this.actor.getColor());
+    //TextHandler.addText(": " + this.dialogue);
   }
 }

@@ -6,12 +6,14 @@ import GameState.StoryState;
 import Handlers.Audio;
 import Handlers.Backgrounds;
 import Handlers.Options;
-//import Handlers.Options;
 import Handlers.Text.Text;
+import Handlers.Text.TextHandler;
 
 public class LogicThread implements Runnable {
 	@Override
 	public void run() {
+		TextHandler.init();
+
 		Text.setDefaultSize(8);
 		Text.setFont("/Fonts/PressStart2P.ttf");
 
