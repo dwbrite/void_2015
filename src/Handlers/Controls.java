@@ -76,4 +76,14 @@ public class Controls {
 	public static boolean getCase() {
 		return shift ^ caps;
 	}
+
+	public static void waitForInput(KeyCode keyCode) {
+		while (getInput().equals(keyCode.toString())) {
+			try {
+				Thread.sleep(16);
+			} catch (final InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 }
