@@ -1,22 +1,30 @@
 package Story;
 
+import Handlers.Text.FormattedString;
+import Handlers.Text.TextFormatting;
 import Handlers.Text.TextHandler;
 
 public class Monologue implements Event {
-  String text;
 
-  public Monologue(String text) {
-    this.text = text;
-  }
+	private FormattedString text;
 
-  @Override
-  public void run() {
-	  TextHandler.addText("\n" + this.text);
+	public Monologue(String text, TextFormatting formatting) {
+		this.text = new FormattedString(text, formatting);
+	}
 
-    try {
-		Thread.sleep(1000);
-	} catch (InterruptedException e) {
-		e.printStackTrace();
-    }
-  }
+	public Monologue(String text) {
+		this(text, new TextFormatting());
+	}
+
+	@Override
+	public void run() {
+		TextHandler.addText(this.text);
+
+		// todo: replace with new WaitForKey(enter);
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
 }
